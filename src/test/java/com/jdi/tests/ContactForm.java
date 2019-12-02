@@ -6,6 +6,7 @@ package com.jdi.tests;
  */
 
 import com.jdi.TestsInit;
+import jdisite.entities.DefaultData;
 import org.testng.annotations.*;
 
 import static com.jdi.states.State.loggedIn;
@@ -23,6 +24,8 @@ public class ContactForm extends TestsInit {
 
     @Test
     public void submitContactDataTest() {
+        loginForm.loginAs(DefaultData.ROMAN);
+        leftMenu.select(ContactForm);
         contactPage.checkOpened();
         contactForm.submit(FULL_CONTACT);
         contactForm.check(FULL_CONTACT);
