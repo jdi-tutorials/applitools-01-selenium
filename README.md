@@ -21,6 +21,8 @@ Add visual validations with applitools for each new page opened and each isDispl
 
 ## 4. Switch tests to Jdi Light
 Now you can [improve your tests using jdi-light features](https://github.com/jdi-tutorials/applitools-01-selenium/commit/e98a7d05ed9515a8d4855f92b58c9a755fd39582) and reduce code in 2-3 times. Make it clear to understand and easy to maintain.</br>
+**SELENIUM (108 lines of code)**</br>
 ![Tests](images/contact-form-selenium-1.png)</br>
 ![Tests](images/contact-form-selenium-2.png)</br>
+**JDI LIGHT (6 lines of code)**</br>
 ![Tests](images/contact-form-jdi-light.png)
