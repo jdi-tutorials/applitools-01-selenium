@@ -1,4 +1,4 @@
-# Improve Selenium tests with JDI Light an Applitools
+# Improve Selenium tests with JDI Light and Applitools
 Imagine you have project with Selenium tests and you would like to improve your tests:</br>
 1. Improve tests stability and add logs for common actions</br>
 2. Add Visual testing</br>
